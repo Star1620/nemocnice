@@ -16,12 +16,12 @@ public class TestController {
     Employee health() {
        // return new ResponseEntity<>( "Ahoj kámo", HttpStatus.OK) ;
         return   new Employee(
-                    1L,
                     "Monika",
                     "Nová",
                     true,
                     "email@email.cz",
-                    LocalDate.of(2001, 1, 1)
+                    LocalDate.of(2001, 1, 1),
+                    2
             );
 
     }
